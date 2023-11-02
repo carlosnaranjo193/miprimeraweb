@@ -1,0 +1,36 @@
+
+body { 
+    margin: 0;
+    padding: 0;
+ }
+
+ol
+ul {
+    list-style: none;
+ }
+       
+a { 
+   text-decoration: none;
+}
+
+header {
+   background-color: green (34, 33, 31 0.85);
+   display: flex;
+   align-items: center; 
+   justify-content: space-between; 
+}
+
+header a i {
+    color:white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav ul {
+    display:flex;
+    gap: 1.1em;
+}
+
+header nav ul li a {
+    color:white;  
+}

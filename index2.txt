@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera WEB</title>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles2.css" />
+    </head>
+    <body>
+    <header id="encabezado">
+      <h1 class="logo">
+        <a href="https://egg.live/" class="fuente-acento">Mi WEB</a>
+        </h1>
+        <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+           </label>
+               <ul class="menu">
+                   <li><a href="index2.html">Inicio</a></li>
+                   <li><a href="#seccion-principal">Acerca de mi</a></li>
+                   <li><a href="#Trabajos">Trabajos</a></li>
+                   <li><a href="index2.html">Servicios</a></li>
+                   <li><a href="#Contacto">Contacto</a></li>
+                   </ul>
+                   </nav>
+                   </header>  
+                   <main id="seccion-principal">
+                   <section class="seccion-1">
+                  <div class="acerca-de">
+                   <h2 class="fuente-acento">Acerca de mi</h2>
+                   <p>Bienvenido a mi WEB</p>
+                   <p>Curso de desarollo de paginas WEB html 5, espero lo disfruten.</p>
+                   </div>
+                   <div class="acerca-imagen">
+                    <img src="img/img1.jpg" alt="imagen portada" />
+                    </div>
+                    </section>
+                    </section>
+                    <section class="seccion 2">
+                    <img src="img/carrusel-img.jpeg" alt="" /> /section>
+                    </main>     
+                   <footer>CURSO DE CARLOS <footer</>
+                  </div>
+            </body>     
+</html>

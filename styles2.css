@@ -1,0 +1,68 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ol
+ul {
+    list-style: none;
+ }
+       
+a { 
+   text-decoration: none;
+}
+
+header {
+   background-color: green (34, 33, 31 0.85);
+   display: flex;
+   align-items: center; 
+   justify-content: space-between; 
+}
+
+header a i {
+    color:white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav ul {
+    display:flex;
+    gap: 1.1em;
+}
+
+header nav ul li a {
+    color:white;  
+}
+
+footer {
+    clear: both; 
+    background-color: green (34, 33, 31 0.85);
+    width: 100%;
+    text-align: center; 
+    justify-content: center; 
+    padding: 25px;
+ }
+
+ footer a {
+ text-decoration: none;
+}
+
+/* MENU */
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px; 
+    color: white;   
+    float: right; 
+    line-height: 80px; 
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* MEDIA QUERIES */
+/* Estilos para pantallas mas pequeñas (hasta 760px) */
